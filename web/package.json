@@ -14,6 +14,9 @@
   "devDependencies": {
     "@sanity/block-content-to-react": "^2.0.7",
     "@sanity/image-url": "^0.140.15",
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "@types/react-helmet": "^5.0.12",
     "date-fns": "^1.30.1",
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
@@ -33,9 +36,11 @@
     "prettier-eslint-cli": "^4.7.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.6.4"
   },
   "dependencies": {
-    "gatsby-image": "^2.0.41"
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-typescript": "^2.1.15"
   }
 }
