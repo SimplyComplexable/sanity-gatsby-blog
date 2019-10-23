@@ -19,3 +19,9 @@ body > div,
 body > div > div {
   height: 100%;
 }
+
+#gatsby-focus-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding-top: var(--nav-height);
+}

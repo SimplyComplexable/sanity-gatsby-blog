@@ -26,4 +26,40 @@
   --font-title2-line-height: calc(33 / 24); /* 33px */
   --font-title1-size: calc(49 / var(--unit) * 1rem); /* 49px */
   --font-title1-line-height: calc(57 / 49); /* 57px */
+
+  --nav-height: 60px;
+
+  --main-content-width: 90%;
+
+  --spacing-xs: .5rem;
+  --spacing-sm: .75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.25rem;
+  --spacing-xl: 1.5rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  :root {
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  :root {
+    --main-content-width: 960px;
+
+    --spacing-xs: .25rem;
+    --spacing-sm: .5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+  }
+}
+
+/* Desktop HD */
+@media (min-width: 1440px) {
+  :root {
+
+  }
 }
